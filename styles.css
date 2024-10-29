@@ -238,6 +238,11 @@ a {
     to {border-color: lightgreen}
 }
 
+@keyframes link-color {
+    from {color: white;}
+    to {color:#3882f6}
+}
+
 button:hover {
     animation-name: button-color;
     animation-duration: 1s;
@@ -246,4 +251,10 @@ button:hover {
 
 button:active{
     background-color: grey;
+}
+
+a:hover {
+    animation-name: link-color;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
 }

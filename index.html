@@ -8,26 +8,28 @@
     <div class="header">
     <h2>Header Logo</h2>
     <ul>
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
+        <a href="index.html"><li>header link one</li></a>
+        <a href="index.html"><li>header link one</li></a>
+        <a href="index.html"><li>header link one</li></a>
     </ul>
     
 </div>
 <div class="sub-header">
-<div class="hero-text">
-    <h1>This website is awesome</h1>
-    <p>This website has some subtext that goes here under  the main title. it's a smaller font and the color is a lower contrast</p>
-    <button> Sign up</button>
-</div>
-<div class="Place-holder-image">
-    <p>this is a placeholder for an image</p>
-</div>
+    <div class="hero-text">
+        <h1>This website is awesome</h1>
+        <div class="hero-secondary">
+            <p>This website has some subtext that goes here under  the main title. it's a smaller font and the color is a lower contrast</p>
+        </div>
+        <button class="top-button"> Sign up</button>
+    </div>
+    <div class="Place-holder-image">
+        <p>this is a placeholder for an image</p>
+    </div>
 </div>
 </head>
 <body>
     <div class="body">
-    <h2>This is some random information</h2>
+    <p class="information-header">This is some random information</p>
     <div class="sub-body">
     <ul>
         <li>
@@ -47,13 +49,12 @@
         </li>
     </ul>
 
-    <ul>
+    <ul class="information-image-text">
         <li>
             text for the first image
         </li>
         <li>
            text for the second image
-
         </li>
         <li>
             text for the third image
@@ -66,15 +67,25 @@
     </div>
     </div>
     <div class="quote-section">
-        <h3>This is an an inspiring quote, or a testimonial from a customer. Maybe its just filling up space, or maybe people will actually read it. who knows? All I know is that it looks nice.</h3>
-        <h5>Author of quote</h5>
+        <div class="quote-container">
+            <p>This is an an inspiring quote, or a testimonial from a customer. Maybe its just filling up space, or maybe people will actually read it. who knows? All I know is that it looks nice.</p>
+            <div class="author">
+                <h4>Author of quote</h4>
+            </div>
+        </div>
     </div>
 
     <div class="call-to-action-sign-up-section">
         <div class="text-and-button">
-            <h4>Call to action! it's Time!</h4>
-            <p>Sign up for our product by clicking that button right over there</p>
-            <button>Sign up</button>
+            <div class="text-and-button-container">
+                <div class="action-signup-text">
+                    <h4>Call to action! it's Time!</h4>
+                    <p>Sign up for our product by clicking that button right over there</p>
+                </div>
+                <div class="action-button">
+                <button class="bottom-button">Sign up</button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer">
